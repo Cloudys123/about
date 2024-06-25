@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="about-section">
+        <h1>About</h1>
+        <div class="content-container">
+            <img src="photo.png" alt="Photo">
+            <div class="tabs-and-content">
+                <div class="tabs">
+                    <button class="tab-button active" onclick="showContent('history')">History</button>
+                    <button class="tab-button" onclick="showContent('vision')">Vision</button>
+                    <button class="tab-button" onclick="showContent('goals')">Goals</button>
+                </div>
+                <div class="tab-content">
+                    <div id="history" class="content active">
+                        <h2>History</h2>
+                        <p>History</p>
+                    </div>
+                    <div id="vision" class="content">
+                        <h2>Vision</h2>
+                        <p>Vision</p>
+                    </div>
+                    <div id="goals" class="content">
+                        <h2>Goals</h2>
+                        <p>Goals</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
